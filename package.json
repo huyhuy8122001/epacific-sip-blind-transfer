@@ -1,0 +1,26 @@
+{
+  "name": "sip-blind-transfer",
+  "version": "0.0.1",
+  "description": "jambonz webhook application",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "jslint": "eslint app.js lib"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@jambonz/node-client": "^0.3.12",
+    "aws-sdk": "^2.1085.0",
+    "debug": "^4.3.3",
+    "express": "^4.17.3",
+    "express-basic-auth": "^1.2.1",
+    "pino": "^7.8.0",
+    "s3-upload-stream": "^1.0.7",
+    "ws": "^8.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.10.0",
+    "eslint-plugin-promise": "^6.0.0"
+  }
+}
